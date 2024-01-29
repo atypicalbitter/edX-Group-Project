@@ -1,0 +1,221 @@
+:root {
+--textCol: rgb(243, 243, 243);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  padding-left: 5px;
+  padding-top: 10px;
+  }
+
+h1 {
+  text-align: center; 
+  color: var(--textCol);
+  font-size: 48px;
+  }
+
+
+
+body {
+    background: transparent;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.video-container {
+    position: fixed;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-fluid {
+padding-left: 4em;
+}
+
+  #toDo, #weather, #newsAPI, #secondAPI, #thirdAPI {
+    color: var(--textCol);
+      font-size: 2.5em;
+      border-style: none;
+  }
+
+  #toDo, #newsAPI {
+    padding-top: 1em;
+
+  }
+
+  .input-group {
+    max-width: 1300px;
+  }
+
+  .input-group-append {
+    padding-left: 20px;
+  }
+
+  .form-control {
+    border-radius: 20px !important;
+    max-width: 100%;
+    
+  }
+
+  .list-group-item {
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+  }
+  
+  #taskList, .btn {
+    text-decoration: none !important;
+  }
+  
+  #taskList, .list-group{
+    border-radius: 20px !important;
+    max-width: 1300px;
+    font-size: 20px;
+  }
+
+p {
+    font-size: 0.5em;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    color: white;
+}
+
+.container {
+  overflow-y: auto;
+}
+
+.otherRow
+{
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 20px;
+    align-items: center;
+
+}
+
+h2 {
+    font-size: 0.8em;
+    color: var(--textCol);
+}
+
+.completed  {
+    text-decoration: line-through !important;
+}
+
+h3 {
+  font-size: 0.7em;
+  color: var(--textCol);
+}
+
+.card {
+background: transparent;
+    border-style: none !important;
+    
+  }
+  
+#wordOfDay {
+    font-size: 0.9em;
+    color:#4c7273;
+    overflow-y: hidden;
+    overflow-x: hidden; 
+}
+
+.card-body {
+    max-height: 200px;
+    overflow-y: auto; 
+    max-width: 900px;
+  }
+
+#weatherdata {
+display: flex;
+border: solid rgb(255, 255, 255) 2px; 
+border-radius: 50%;
+height: 320px;
+width: 320px;
+background-color: var(--bgcolor);
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+font-size: 16px;
+
+}
+
+#weatherdatainner {
+ display: flex;
+ height: 70%;
+ width: 70%;
+ background-color: transparent;
+ flex-direction: column;
+} 
+
+#dateDiv, #WeatherDescriptionDiv, #TempDiv {
+display: flex;
+width: 100%;
+height: 25%;
+justify-content: center;
+align-items: center;
+font-weight: 600;
+color: white;
+text-align: center;
+}
+
+#minTemp, #maxTemp {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+#WeatherIconDiv {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#WeatherIcon {
+height: 45px;
+width: 75px;
+}
+
+#dateDiv {
+ font-weight: 900;
+}
+
+  #background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
+
+  footer {
+    width: 100%;
+    height: 100px;
+    }
+
+
+  .bebas-neue-regular {
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
